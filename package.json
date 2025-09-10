@@ -1,0 +1,14 @@
+{
+  "name": "giwa-bridging-eth",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "deposit": "tsx deposit_eth.ts",
+    "withdraw": "tsx withdraw_eth.ts"
+  },
+  "dependencies": {
+    "viem": "^2.9.16",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.7.0"
+  }
+}
